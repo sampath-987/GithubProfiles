@@ -1,0 +1,33 @@
+
+.banner {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(127, 23, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .banner a{
+    color:white;
+  }
+  
+  .box {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .box > div {
+    width: calc(25% - 1rem); 
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .box > div {
+      width: calc(50% - 1rem); 
+    }
+  }
+  
